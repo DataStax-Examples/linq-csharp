@@ -1,4 +1,4 @@
-# Using LINQ with Cassandra
+# LINQ with Cassandra
 
 This application demonstrates how to use LINQ with Cassandra in C#
 
