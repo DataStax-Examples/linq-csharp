@@ -40,7 +40,7 @@ This sample shows the most common patterns used with the LINQ Method syntax.  Th
 ## Setup and Running
 
 ### Prerequisites
-* .NET Core 2.1
+* .NET Core 2.1 ( [download](https://dotnet.microsoft.com/download) )
 * A Cassandra cluster
 
 **Note** This application defaults to connecting to a cluster on localhost. These parameters can be changed on line 28 of Program.cs.
