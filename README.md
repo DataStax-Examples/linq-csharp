@@ -1,5 +1,5 @@
 # Using LINQ with Cassandra
-LINQ simplifies application development by providing a consistent query experience for objects. The C# DataStax Driver brings this convenience to Apache Cassandra™ through its [LINQ component](https://docs.datastax.com/en/developer/csharp-driver/latest/features/components/linq/) and this example shows how you can use it in C# Cassandra applications.
+Language Integrated Query ( [LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/) ) simplifies application development by providing a consistent query experience for objects. The C# DataStax Driver brings this convenience to Apache Cassandra™ through its [LINQ component](https://docs.datastax.com/en/developer/csharp-driver/latest/features/components/linq/) and this example shows how you can use it in C# Cassandra applications.
 
 Contributors: [Dave Bechberger](https://github.com/bechbd) - derived from [here](https://docs.datastax.com/en/developer/csharp-driver/latest/features/components/linq/)
 
