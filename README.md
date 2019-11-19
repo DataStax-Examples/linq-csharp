@@ -15,7 +15,7 @@ Contributors: [Dave Bechberger](https://github.com/bechbd) - derived from [here]
 * [Program.cs](Program.cs) - The main application file 
 * [User.cs](User.cs) - The POCO object that maps to the Cassandra table
 
-## How this Sample Works
+## How this Works
 This sample works by first making a connection to a Cassandra instance, this is defaulted to `localhost`.  Once the `Cluster` object has been built the mapping between the `User` object and the `users` table is created using this code:
 
 ```
