@@ -1,8 +1,7 @@
-# LINQ with Cassandra
+# Using LINQ with Cassandra
+LINQ simplifies application development by providing a consistent query experience for objects. The C# DataStax Driver brings this convenience to Apache Cassandra™ through its [LINQ component](https://docs.datastax.com/en/developer/csharp-driver/latest/features/components/linq/) and this example shows how you can use it in C# Cassandra applications.
 
-This application demonstrates how to use LINQ with Cassandra in C#
-
-Contributors: [Dave Bechberger](https://github.com/bechbd) adapted from [here](https://docs.datastax.com/en/developer/csharp-driver/3.12/features/components/linq/)
+Contributors: [Dave Bechberger](https://github.com/bechbd) - derived from [here](https://docs.datastax.com/en/developer/csharp-driver/latest/features/components/linq/)
 
 ## Objectives
 
@@ -35,15 +34,17 @@ Once we have made this can connected our session this sample contains four funct
 * UpdateOperations - This contains the update operations you can perform in LINQ
 * DeleteOperations - This contains the delete operations you can perform in LINQ
 
-This sample shows the most common patterns used with the LINQ Method syntax.  The same functions are also available using the Query syntax.  This is not an exhaustive example of the features and configuration options available within the driver.  For a complete listing of the features and configuration options please check the documentation [here](https://docs.datastax.com/en/developer/csharp-driver/3.12/features/components/linq/).
+This sample shows the most common patterns used with the LINQ Method syntax.  The same functions are also available using the Query syntax.  This is not an exhaustive example of the features and configuration options available within the driver.  For a complete listing of the features and configuration options please check the documentation [here](https://docs.datastax.com/en/developer/csharp-driver/latest/features/components/linq/).
 
 ## Setup and Running
 
 ### Prerequisites
 * .NET Core 2.1 ( [download](https://dotnet.microsoft.com/download) )
-* A Cassandra cluster
+* A Cassandra cluster is running and accessible through the contacts points
 
-**Note** This application defaults to connecting to a cluster on localhost. These parameters can be changed on line 28 of Program.cs.
+**Note** This application defaults to connecting to a cluster on localhost. This can be changed in [Program.cs](Program.cs) by modifying the following to your settings.
+
+`Cassandra.Cluster.Builder().AddContactPoint("127.0.0.1").Build();`
 
 ### Running
 To run this application use the following command:
